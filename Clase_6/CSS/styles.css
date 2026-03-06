@@ -1,0 +1,35 @@
+h2 {
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*selector de clase*/
+.clase_titulo {
+    color: cadetblue;
+}
+
+/*selector de id*/
+#parrafo2 {
+    text-decoration: line-through;
+}
+
+/*selector combinado*/
+h2, p {
+    text-transform: lowercase;
+}
+
+/*selector universal*/
+*{
+    background-color: black;
+}

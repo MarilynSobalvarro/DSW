@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Practica Tablas y Formularios">
+        <meta name="keywords" content="html, practica, tablas, formularios">
+        <title>Clase 4</title>
+    </head>
+
+
+    <body>
+
+        <!--TABLAS-->
+
+        <h2>Tabla</h2>
+        <table border="1">
+            <!--Fila 1-->
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Points</th>
+                <th>Team</th>
+            </tr>
+            <!--Fila 2-->
+            <tr>
+                <td>1</td>
+                <td>Domenic</td>
+                <td>88,110</td>
+                <td>dcode</td>
+            </tr>
+            <!--Fila 3-->
+            <tr>
+                <td>2</td>
+                <td>Sally</td>
+                <td>72,400</td>
+                <td>Student</td>
+            </tr>
+            <!--Fila 4-->
+            <tr>
+                <td>3</td>
+                <td>Nick</td>
+                <td>52,300</td>
+                <td>dcode</td>
+            </tr>
+        </table>
+    
+        <br>
+
+        <!-- Formulario -->
+
+        <h2>Formulario</h2>
+        <form action="/enviar-correo.php">
+
+
+            <!--Nombre-->
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+
+            <br>
+
+            <!--Apellido-->
+            <label for="apellido">Apellido</label><br>
+            <input type="text" id="apellido" name="apellido"><br>
+
+            <br>
+
+            <!--Edad-->
+            <label for="edad">Edad</label><br>
+            <select>
+                <option value="1-10">1 a 10 años</option>
+                <option value="10-20">10 a 20 años</option>
+                <option value="20-30">20 a 30 años</option>
+            </select>
+
+            <br><br>
+
+            <!--Genero-->
+            <label>Genero</label><br>
+
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+        
+
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+
+            <input type="radio" id="prefiero-no-decir" name="genero" value="prefiero no decir">
+            <label for="prefiero-no-decir">Prefiero no decir</label>
+
+            <br><br>
+
+            <!--Frutas favoritas-->
+            <label>Frutas favoritas</label><br>
+
+            <input type="checkbox" id="manzana" name="frutas favoritas" value="manzana">
+            <label for="manzana">Manzana</label>
+
+            <input type="checkbox" id="pera" name="frutas favoritas" value="manzana">
+            <label for="pera">Pera</label>
+
+            <input type="checkbox" id="banano" name="frutas favoritas" value="banano">
+            <label for="banano">Banano</label>
+
+            <br><br>
+
+            <!--Contraseña-->
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password">
+
+            <br><br>
+
+            <!--Mensaje-->
+            <label for="mensaje">Mensaje</label><br>
+            <textarea id="mensaje"></textarea>
+
+            <br><br>
+
+            <!--Button enviar-->
+            <input type="submit" value="Enviar">
+
+
+        </form>
+
+
+
+
+    </body>
+
+
+</html>

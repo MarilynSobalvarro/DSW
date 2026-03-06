@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Practica Formulario</title>
+    </head>
+
+    <body>
+        <form action="/enviar-correo.php">
+
+            <!--Nombre-->
+            <label for="nombre"><b>Escribe tu nombre:</b></label>
+            <input type="text" id="nombre" name="nombre">
+            <br><br>
+            <!--Apelllido-->
+            <label for="apellido"><b>Escribe tu apellido:</b></label>
+            <input type="text" id="apellido" name="apellido">
+            <br><br>
+            <!--Email-->
+            <label for="email"><b>Escribe tu email:</b></label>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+            <!--Valoración-->
+            <label><b>¿Qué valoración le das a la publicación?</b></label>
+            <br>
+
+            <input type="radio" id="0" name="valoración-publicación">
+            <label for="0">0</label>
+
+            <input type="radio" id="1" name="valoración-publicación">
+            <label for="1">1</label>
+
+            <input type="radio" id="2" name="valoración-publicación">
+            <label for="2">2</label>
+
+            <input type="radio" id="3" name="valoración-publicación">
+            <label for="3">3</label>
+
+            <input type="radio" id="4" name="valoración-publicación">
+            <label for="4">4</label>
+
+            <input type="radio" id="5" name="valoración-publicación">
+            <label for="5">5</label>
+            <br><br>
+
+            <!--Asignaturas-->
+            <label><b>¿Qué asignaturas has estudiado?</b></label>
+            <br>
+            <!--HTML-->
+            <input type="checkbox" id="asignatura1" name="asignatura1" value="html">
+            <label for="asignatura1">html</label>
+            <!--CSS-->
+            <input type="checkbox" id="asignatura2" name="asignatura2" value="css">
+            <label for="asignatura2">css</label>
+            <!--JAVASCRIPT-->
+            <input type="checkbox" id="asignatura3" name="asignatura3" value="javascript">
+            <label for="asignatura3">javascript</label>
+            <br><br>
+
+            <!--Alineación-->
+            <label for="alineacion"><b>Selecciona tu alineación ideal</b></label>
+            <br>
+
+            <select name="alineacion" id="alineacion" size="5" multiple>
+                <option value="cristiano">Cristiano</option>
+                <option value="messi">Messi</option>
+                <option value="chiprinsky">Chiprinsky</option>
+                <option value="sergio-ramos">Sergio Ramos</option>
+                <option value="shevchenko">Shevchenko</option>
+            </select>
+            <br><br>
+
+            <!--Comentario-->
+            <label for="comentario"><b>¿Qué mejorarías de este curso?</b></label><br>
+            <textarea id="comentario" name="comentario"></textarea>
+            <br>
+
+            <input type="submit">
+
+        </form>
+    </body>
+    
+</html>

@@ -1,0 +1,53 @@
+Cuando se usa un absolute este va a buscar un padre que tenga un relative.
+
+
+/*body {
+    margin-top: 20px;
+}
+
+a {
+padding: 10px;
+
+widht style color
+border: 3px dashed black;
+
+margin: 10px;
+}
+
+p {
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p::first-letter{
+    color: teal
+}
+
+p::first-line{
+    color: teal;
+}*/
+
+.button-tomato {
+    color: white;
+    padding: 5px 1opx;
+    background-color: tomato;
+    border: 1px solid tomato;
+}
+
+.button-tomato:hover {
+    background-color: white;
+    color: tomato;
+}
+
+/*---NOTAS---
+
+Box Model
+1. content
+2. padding
+3. border
+4. margin
+
+*/
+
+

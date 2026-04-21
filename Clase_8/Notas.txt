@@ -1,0 +1,30 @@
+a{
+
+/*shorthand*/
+
+/*
+border-width:
+border-style:
+border-color:
+*/
+
+/*Espacio interno*/
+
+/*
+padding-top: ;
+padding-bottom: ;
+padding-left: ;
+padding-right: ;
+*/
+
+/*A todos los lados*/
+/*padding: ;*/
+
+/*y - x*/
+/*arriba y abajo*/
+/*padding: ;*/
+
+}
+
+5 arriba
+10 lados

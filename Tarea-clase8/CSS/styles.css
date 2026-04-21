@@ -1,0 +1,57 @@
+/*
+.practica {
+    background-color: gray;
+    color: white;
+    border: 3px solid black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tomato{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.tomato:hover {
+    background-color: white;
+    color: red;
+}
+*/
+
+/*
+Estado normal = por defecto
+Estado hover = al pasar el mouse encima
+Estado active = al mantener presionado
+Estado desactivado = no se puede usar
+*/
+
+.practica{
+    background-color: white;
+    color: #39B2A6;
+    border: 2px solid #E5E5E5;
+    border-radius: 5px;
+    padding: 5px 35px;
+}
+
+.practica:hover{
+    background-color: white;
+    color: #39B2A6;
+    border: 2px solid #AFAFAF;
+}
+
+.practica:active{
+    background-color: #39B2A6;
+    color: white;
+    border: none;
+}
+
+.practica:disabled{
+    background-color: #E5E5E5;
+    color: #6E6E6E;
+    border: none;
+}
+
+
+

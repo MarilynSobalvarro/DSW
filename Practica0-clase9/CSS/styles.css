@@ -1,0 +1,62 @@
+/*Display inline*/
+p{
+    display: inline;
+}
+
+/*Display block*/
+a{
+    display: block;
+    color: brown;
+    margin: 5px;
+}
+
+/*
+Position relative: El elemento mantiene su espacio.
+
+.button-gray{
+    padding: 8px;
+    border: 1px solid black;
+    margin-right: 10px;
+
+    font-size: 12px;
+    background: pink;
+    text-decoration: none;
+}
+
+/*
+.element-relative{
+    position: relative;
+
+    bottom: -20px;
+    right: -20px;
+}
+*/
+
+/* Position absolute: El elemento va relacionado al primer padre con position relative. */
+
+.button-gray{
+    padding: 8px;
+    border: 1px solid black;
+    margin-right: 10px;
+
+    font-size: 12px;
+    background: pink;
+    text-decoration: none;
+}
+
+.element-absolute{
+    position: absolute;
+
+    bottom: -20px;
+    right: -20px;
+}
+
+.wrap-relative{
+    position: relative;
+    border: 1px solid black;
+    height: 200px;
+}
+
+
+
+

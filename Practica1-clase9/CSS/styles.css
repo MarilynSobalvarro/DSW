@@ -1,0 +1,18 @@
+.bosque{
+    position: relative;
+    height: 500px;
+    background-image: url(../IMG/carbon-institute-forests-header-1600x900.jpg);
+}
+
+.fondo-verde{
+    height: 500px;
+    background-color: green;
+}
+
+.abeja{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+
+}
